@@ -1,0 +1,135 @@
+/* Styles for the entire page */
+.homepage {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Styles for the navigation bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .top-left {
+    color: lightgreen;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  .top-right {
+    color: black;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  /* Styles for the main content section */
+  .content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    color: #333; /* Change the color to your preference */
+  }
+  
+  .content p {
+    font-size: 20px;
+    color: #555; /* Change the color to your preference */
+  }
+  
+  .content img {
+    max-width: 100%; /* Adjust the width as needed */
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the list of universities */
+  .universities {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .universities h2 {
+    font-size: 24px;
+    color: #333; /* Change the color to your preference */
+  }
+  
+  .universities ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .universities li {
+    font-size: 20px;
+    color: #555; /* Change the color to your preference */
+    margin: 10px 0;
+  }
+  
+  /* Styles for the call to action section */
+  .cta {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cta h2 {
+    font-size: 24px;
+    color: #333; /* Change the color to your preference */
+  }
+  
+  .cta p {
+    font-size: 20px;
+    color: #555; /* Change the color to your preference */
+  }
+  
+  .cta button {
+    font-size: 18px;
+    color: white;
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the footer */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    color: white;
+  }
+  
+  .footer-logo {
+    color: lightgreen;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  .footer-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-menu button {
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
