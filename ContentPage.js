@@ -6,8 +6,7 @@ function ContentPage() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Replace with the Khan Academy API endpoint you want to use
-    const apiUrl = 'https://api.khanacademy.org/api/v1/your_endpoint_here';
+    const apiUrl = 'https://devdocs.io/javascript/global_objects/array';
 
     fetch(apiUrl)
       .then((response) => {
@@ -44,7 +43,7 @@ function ContentPage() {
         ))}
       </ul>
       {/* Add a "Go to Content" link */}
-      <a href="https://coding-resources-api.up.railway.app/" target="_blank" rel="noopener noreferrer">
+      <a href="https://devdocs.io/javascript/global_objects/array" target="_blank" rel="noopener noreferrer">
         Go to Content
       </a>
     </div>

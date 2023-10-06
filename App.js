@@ -10,7 +10,7 @@ function App() {
   // Function to handle the "Go to Content" button click
   const handleContentClick = () => {
     // Redirect to the specified URL
-    window.location.href = 'https://coding-resources-api.up.railway.app/';
+    window.location.href = 'https://devdocs.io/';
   };
 
   return (
@@ -29,9 +29,6 @@ function App() {
         {currentPage === 'content' && <ContentPage />}
       </main>
 
-      <footer className="App-footer">
-        {/* Your footer content */}
-      </footer>
     </div>
   );
 }
