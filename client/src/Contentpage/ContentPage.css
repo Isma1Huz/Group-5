@@ -1,0 +1,85 @@
+.Content-body {
+  display: flex;
+  width: 100%;
+}
+
+.leftContent {
+  width: 20%;
+  border-right: 3px solid #10C843;
+  padding: 0 !important;
+  z-index: 1;
+}
+
+.rightContent {
+  width: 70%;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 10rem;
+}
+
+a.active {
+  font-weight: bold;
+  color: #10C843; 
+}
+
+ol {
+  width: 100%;
+}
+
+
+/* ContentPage.css */
+.content-container {
+  display: flex;
+  padding: 20px;
+}
+
+.left-sidebar {
+  width: 30%;
+  padding: 10px;
+  border-right: 1px solid  #10C843;
+}
+
+.left-sidebar h1 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.left-sidebar ul {
+  list-style: none;
+  padding: 0;
+  display: block;
+}
+
+.left-sidebar li {
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.left-sidebar li:hover {
+  color: #10C843;
+}
+
+.left-sidebar .active {
+  color: black;
+  font-weight: bold;
+}
+
+.right-content {
+  width: 80%;
+  padding: 10px 20px;
+}
+
+.right-content h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.right-content p {
+  font-size: 1rem;
+}

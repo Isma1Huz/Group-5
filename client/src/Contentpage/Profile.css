@@ -1,0 +1,149 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  border: 3px solid #5e5e5e; 
+  border-radius: 20px;
+  background-color: white; 
+  position: relative;
+  align-items: flex-start;
+}
+
+/* Profile background image */
+.profile-background {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  background-image: url('./imagep.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 20px; 
+}
+
+/* Profile information */
+.profile-info {
+  text-align: left;
+  width: 100%;
+  padding-left: 0; /* Remove padding for profile info */
+}
+
+/* Profile title */
+.profile-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 36px; /* Increase font size */
+  color: #10C843; /* Title color */
+  margin-bottom: 20px;
+}
+
+/* Profile details */
+.profile-details {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px; /* Increase font size */
+  color: #5e5e5e; /* Text color */
+  margin-bottom: 20px;
+}
+
+/* User actions */
+.user-actions {
+  display: flex;
+  justify-content: flex-end; /* Move actions to the right */
+  width: 100%;
+}
+
+/* Edit button */
+.edit-button,
+.save-button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff; /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; /* Add margin to separate buttons */
+}
+
+.edit-button {
+  background-color: #f1c40f; /* Button background color */
+}
+
+.save-button {
+  background-color: #2ecc71; /* Button background color */
+}
+
+/* My Courses and Certificates */
+.my-courses,
+.certificates {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 200px; /* Increase the margin-right to add more space */
+}
+
+.my-courses h2,
+.certificates h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #10C843; /* Title color */
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.my-courses ul,
+.certificates ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.my-courses ul li,
+.certificates ul li {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px; /* Text size */
+  color: #5e5e5e; /* Text color */
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+}
+/* Add hover effect */
+.my-courses:hover,
+.certificates:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on hover */
+}
+
+.my-courses:hover h2,
+.certificates:hover h2,
+.my-courses:hover ,
+.certificates:hover {
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a smaller shadow on hover for text */
+}
+
+.my-courses:hover h2,
+.certificates:hover h2 {
+color: black; /* Change text color on hover */
+}
+
+/* Add some space between "My Courses" and "Certificates" */
+.my-courses {
+  margin-right: 400px; /* Increase the margin-right further if needed */
+}
+
+.footer-bottom {
+  text-align: center;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 100px;
+  background-color: #10C843;
+}
+
