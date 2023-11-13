@@ -61,20 +61,6 @@ ________________________________________________________________________________
 - https://new-2q19.onrender.com/products
 - https://new-2q19.onrender.com/address
   
-_____________________________________________________________________________________________________________________________________________________
-
-## IMPLEMENTATION OF THE PROJECT
-- Project Name/ Idea Name
-# Stasho Bookstore
-_____________________________________________________________________________________________________________________________________________________
-#### Project problem statement
-- Parents in the new education curriculum are having trouble finding the books for the new curriculum. They go to the bookshops where they find long ques which wastes time and sometimes they do not find the books they were looking for.
-_____________________________________________________________________________________________________________________________________________________
-#### Solution statement
-- I  would like to develop an e-commerce website which has the all the books and the stationaries. This e-commerce site will be able to save time for the parents from going to the bookshops as it will offer door to door delivery for the order online. The site will also be able to allow different suppliers to sell their products to allow for the buyers to have multiple choices. 
-____________________________________________________________________________________________________________________________________________________
-______________________________________________________________________________________________________________________________________________________
-_________________________________________________________________________________________________________________________________________________________
 ### Host platform 
 - Github
 - Render
